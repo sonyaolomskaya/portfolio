@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+  perspective: 400px;
+  overflow: hidden;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 99.99%; /* Should be `0` but Safari needs this! (BUG #1) */
+  right: 0;
+}
+
+.wrapper {
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: rotateX(40deg);
+}
+
+.slides {
+  perspective: 313px;
+  padding: 50px 0px;
+  width: 100%;
+  height: 400px;
+  transform-style: preserve-3d;
+  overflow: auto;
+  transform: translate(-50%, -0%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.slide {
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  transform: rotateX(-40deg);
+  transform-origin: 0 0;
+}
+
+.title {
+  font-size: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: white;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+}
+
+
+.article {
+margin-left: -5%;
+height: 30%;
+filter: invert(100%);
+}
+
+.article:hover {
+filter: invert(0%);
+}
+
+.article2 {
+height: 30%;
+filter: invert(100%) grayscale(100%);
+}
+
+.article2:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+
+.article5 {
+margin-top: -100%;
+height: 40%;
+filter: invert(100%) grayscale(100%);
+}
+
+.article5:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+.pics {
+  height: 200%;
+  filter: grayscale(100%);
+}
+
+.pics:hover {
+  filter: grayscale(0%);
+}
+
+.picsother {
+  margin-top: -10%;
+  height: 150%;
+  filter: grayscale(100%);
+}
+
+.picsother:hover {
+  filter: grayscale(0%);
+}
+
+.picsother1 {
+  margin-top: -20%;
+  height: 150%;
+  filter: grayscale(100%);
+}
+
+.picsother1:hover {
+  filter: grayscale(0%);
+}
+
+.picsother6 {
+  margin-top: -100%;
+  height: 70%;
+  filter: grayscale(100%);
+}
+
+.picsother6:hover {
+  filter: grayscale(0%);
+}
+
+.picsother2 {
+  margin-left: 60%;
+  margin-top: -10%;
+  height: 50%;
+  filter: grayscale(100%);
+}
+
+.picsother2:hover {
+  filter: grayscale(0%);
+}
+
+.picsother7 {
+  margin-left: 60%;
+  height: 100%;
+  filter: invert(100%);
+}
+
+.picsother7:hover {
+  filter: invert(0%);
+}
+
+.article3 {
+height: 40%;
+filter: invert(100%) grayscale(100%);
+}
+
+.article3:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+.picsother3 {
+margin-top: -100%;
+height: 70%;
+filter: invert(100%) grayscale(100%);
+}
+
+.picsother3:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+.article4 {
+height: 20%;
+filter: invert(100%) grayscale(100%);
+}
+
+.article4:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+.picsother4 {
+margin-top: 10%;
+margin-left: 70%;
+height: 40%;
+filter: invert(100%) grayscale(100%);
+}
+
+.picsother4:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+.picsother5 {
+margin-top: -100%;
+height: 60%;
+filter: invert(100%) grayscale(100%);
+}
+
+.picsother5:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+.pics8 {
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.pics8:hover {
+  filter: grayscale(0%);
+}
+
+.picsother9 {
+margin-top: -100%;
+height: 50%;
+filter: invert(100%) grayscale(100%);
+}
+
+.picsother9:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+.picsother10 {
+  height: 100%;
+  filter: invert(100%);
+}
+
+.picsother10:hover {
+  filter: invert(0%);
+}
+
+
+.pics10 {
+  margin-top: -200%;
+  height: 50%;
+  filter: grayscale(100%);
+}
+
+.pics10:hover {
+  filter: grayscale(0%);
+}
+
+
+.pics11 {
+  margin-top: -200%;
+  margin-left: 40%;
+  height: 70%;
+  filter: grayscale(100%);
+}
+
+.pics11:hover {
+  filter: grayscale(0%);
+}
+
+.article6 {
+margin-top: 10%;
+margin-left: 20%;
+height: 20%;
+filter: invert(100%) grayscale(100%);
+}
+
+.article6:hover {
+filter: invert(0%) grayscale(100%);
+}
+
+.back {
+  text-decoration: none;
+  color: white;
+  left: 1%;
+  position: fixed;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 20px;
+  font-weight: 500;
+  z-index: 3;
+
+}
