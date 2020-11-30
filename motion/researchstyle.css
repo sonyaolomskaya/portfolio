@@ -7,7 +7,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 99.99%; /* Should be `0` but Safari needs this! (BUG #1) */
+  bottom: 99.99%; 
   right: 0;
 }
 
