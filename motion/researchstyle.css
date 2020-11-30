@@ -262,6 +262,7 @@ filter: invert(0%) grayscale(100%);
   text-decoration: none;
   color: white;
   left: 1%;
+  margin-top: 1%;
   position: fixed;
   font-family: Arial, Helvetica, Sans-Serif;
   font-size: 20px;

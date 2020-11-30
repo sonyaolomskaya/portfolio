@@ -16,6 +16,7 @@ video::-webkit-media-controls-enclosure {
 }
 
 .container {
+margin-top: 3%;
 margin-left: 50px;
 display: flex;
 flex-direction: row;
@@ -37,10 +38,10 @@ margin-top: 100px;
 
 .back {
 	text-decoration: none;
-	margin-top: 50%;
+	margin-top: 1%;
 	margin-bottom: 0;
 	padding: 0;
-	margin-left: 2%;
+	margin-left: 1%;
 	position: absolute;
 	color: white;
 	font-family: Arial, Helvetica, Sans-Serif;
@@ -79,7 +80,8 @@ color: white;
 font-family: Arial, Helvetica, Sans-Serif;
 font-size: 50px;
 font-weight: 500;
-margin-top: -80px;
+margin-top: -70px;
+padding: 0em .1em 0em .1em;
 }
 
 
@@ -89,6 +91,59 @@ color: black;
 font-family: Arial, Helvetica, Sans-Serif;
 font-size: 50px;
 font-weight: 500;
-margin-top: -80px;
+margin-top: -70px;
 background-color: white;
+padding: 0em .1em 0em .1em;
 }
+
+.p1 {
+	margin-left: 40px;
+}
+
+.p2 {
+	margin-left: 120px;
+}
+
+.p3 {
+	margin-left: -20px;
+}
+
+.p4 {
+	margin-left: 80px;
+}
+
+.p5 {
+	margin-left: 160px;	
+}
+
+.p6 {
+	margin-left: 190px;	
+}
+
+.p7 {
+	margin-left: 50px;	
+}
+
+.p8 {
+	margin-left: 100px;	
+}
+
+.p9 {
+	margin-left: 110px;	
+}
+
+.p10 {
+	margin-left: 140px;	
+}
+
+.p11 {
+	margin-left: 180px;	
+}
+
+.p12 {
+	margin-left: 10px;	
+}
+
+
+
+
