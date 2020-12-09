@@ -1,0 +1,406 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+video::-webkit-media-controls-enclosure {
+  display:none !important;
+}
+
+
+a:hover {
+	background: grey;
+	color: black;
+}
+
+.landingpage {
+	position: fixed;
+}
+
+.back {
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+	font-size: 16px;
+	position: fixed;
+	top: 90%;
+	left: 2%;
+	z-index: 3 !important; 
+	background-color: black;
+
+}
+
+.grid-container {
+	margin-left: 30%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 40px;
+position: fixed;
+  height: 90%; 
+ width: 70%; 
+ z-index: 2;
+}
+
+.landingone {
+	position: relative;
+	height: 100%;
+	margin-bottom: 40%;
+}
+
+.month {
+	height: 100%;
+}
+
+.everything {
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	position: fixed;
+}
+
+.scroll {
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+	font-size: 16px;
+	position: relative;
+	top: 97%;
+	left: 1%;
+	z-index: 3 !important; 
+	background-color: black;
+}
+
+.scroll3 {
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+	font-size: 20px;
+	position: relative;
+	top: 2%;
+	left: 1%;
+	z-index: 3 !important; 
+	background-color: black;
+}
+
+.scroll3:hover {
+	background: black;
+	color: white;
+}
+
+.scroll2 {
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+	font-size: 20px;
+	position: fixed;
+	top: 6%;
+	left: 1%;
+	z-index: 3 !important; 
+	background-color: black;
+}
+
+.grid-container-months {
+	margin-left: 30%;
+	margin-top: -1%;
+	margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 7%;
+position: absolute;
+  height: 90%; 
+ width: 70%; 
+ z-index: 1;
+}
+
+
+.middlediv {
+margin-left: 5%;
+margin-top: 12%;
+position: absolute;
+width: 40%;
+height: 55%;
+background-color: white;
+color: white;
+font-family: Arial, Helvetica, Sans-Serif;
+font-size: 50px;
+font-weight: 500;
+align-items: center;
+align-content: center;
+}
+
+h3 {
+	margin-top: 0%;
+	margin-left: 2%;
+}
+
+.middlediv:hover {
+background-color: black;
+color: white;
+}
+
+p {
+	color: white;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 25px;
+	font-weight: 500;
+	z-index: 3;
+}
+
+h4 {
+	color: white;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 15px;
+	z-index: 3 !important;
+	position: absolute;
+	margin-left: 1%;
+}
+
+.title {
+	position: absolute;
+	color: gray;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 250px;
+	transition: rotate(0deg);
+	font-weight: 500;
+	mix-blend-mode: difference;
+	margin-top: 4%;
+
+}
+
+h1 {
+	color: white;
+	margin-top: 13%;
+	margin-left: -13%;
+	position: fixed;
+	transform: rotate(-90deg);
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 340px;
+	font-weight: 500;
+}
+
+
+.videos {
+	text-decoration: none;
+	color: gray;
+	font-family: Arial;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 55%;
+	position: absolute;
+	left: 60%;
+	z-index: 3 !important; 
+	mix-blend-mode: difference;
+	padding: 0em .05em 0em .05em;
+}
+
+.overview {
+	text-decoration: none;
+	color: gray;
+	font-family: Arial;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 60%;
+	position: absolute;
+	left: 60%;
+	z-index: 3 !important; 
+	mix-blend-mode: difference;
+	padding: 0em .05em 0em .05em;
+}
+
+.statement {
+	text-decoration: none;
+	color: gray;
+	font-family: Arial;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 65%;
+	position: absolute;
+	left: 60%;
+	z-index: 3 !important; 
+	mix-blend-mode: difference;
+	padding: 0em .05em 0em .05em;
+}
+
+.research {
+	text-decoration: none;
+	color: gray;
+	font-family: Arial;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 70%;
+	position: absolute;
+	left: 60%;
+	z-index: 3 !important; 
+	mix-blend-mode: difference;
+	padding: 0em .05em 0em .05em;
+}
+
+#quote1 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote2 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote3 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote4 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 22%;
+}
+
+#quote5 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote6 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote7 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote8 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote9 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote10 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+#quote11 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+
+#quote12 {
+	opacity: 0;
+	color: white;
+	position: fixed;
+	font-size: 30px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 40%;
+	width: 20%;
+}
+
+
+.boxie {
+ margin-left: 5%;
+ margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 7%;
+position: absolute;
+  height: 90%; 
+ width: 70%; 
+ z-index: 1;
+   perspective: 400px;
+
+}
+
+
+.image {
+	height: 50%;
+}
