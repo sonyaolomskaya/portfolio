@@ -22,6 +22,9 @@ a:hover {
 	color: black;
 }
 
+.landingpage {
+	position: fixed;
+}
 
 .back {
 	text-decoration: none;
@@ -49,6 +52,12 @@ position: fixed;
   height: 90%; 
  width: 70%; 
  z-index: 2;
+}
+
+.landingone {
+	position: relative;
+	height: 100%;
+	margin-bottom: 40%;
 }
 
 .month {
@@ -152,6 +161,26 @@ p {
 	z-index: 3;
 }
 
+h4 {
+	color: white;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 15px;
+	z-index: 3 !important;
+	position: absolute;
+	margin-left: 1%;
+}
+
+.title {
+	position: absolute;
+	color: gray;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 250px;
+	transition: rotate(0deg);
+	font-weight: 500;
+	mix-blend-mode: difference;
+	margin-top: 4%;
+
+}
 
 h1 {
 	color: white;
@@ -171,8 +200,8 @@ h1 {
 	font-family: Arial;
 	font-size: 70px;
 	font-weight: bold;
-	position: fixed;
-	top: 31%;
+	margin-top: 55%;
+	position: absolute;
 	left: 60%;
 	z-index: 3 !important; 
 	mix-blend-mode: difference;
@@ -185,8 +214,8 @@ h1 {
 	font-family: Arial;
 	font-size: 70px;
 	font-weight: bold;
-	position: fixed;
-	top: 41%;
+	margin-top: 60%;
+	position: absolute;
 	left: 60%;
 	z-index: 3 !important; 
 	mix-blend-mode: difference;
@@ -199,8 +228,8 @@ h1 {
 	font-family: Arial;
 	font-size: 70px;
 	font-weight: bold;
-	position: fixed;
-	top: 51%;
+	margin-top: 65%;
+	position: absolute;
 	left: 60%;
 	z-index: 3 !important; 
 	mix-blend-mode: difference;
@@ -213,8 +242,8 @@ h1 {
 	font-family: Arial;
 	font-size: 70px;
 	font-weight: bold;
-	position: fixed;
-	top: 61%;
+	margin-top: 70%;
+	position: absolute;
 	left: 60%;
 	z-index: 3 !important; 
 	mix-blend-mode: difference;
