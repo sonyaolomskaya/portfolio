@@ -18,7 +18,7 @@ video::-webkit-media-controls-enclosure {
 
 
 a:hover {
-	background: grey;
+	background: white;
 	color: black;
 }
 
@@ -146,6 +146,8 @@ align-content: center;
 h3 {
 	margin-top: 0%;
 	margin-left: 2%;
+	color: white;
+/*	text-shadow: -4px -4px 0 white, 4px -4px 0 white, -4px 4px 0 white, 4px 4px 0 white;*/
 }
 
 .middlediv:hover {
@@ -172,7 +174,6 @@ h4 {
 
 .title {
 	position: absolute;
-	color: gray;
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 250px;
 	transition: rotate(0deg);
@@ -196,21 +197,22 @@ h1 {
 
 .videos {
 	text-decoration: none;
-	color: gray;
 	font-family: Arial;
 	font-size: 70px;
 	font-weight: bold;
 	margin-top: 55%;
 	position: absolute;
 	left: 60%;
+	color: white;
 	z-index: 3 !important; 
 	mix-blend-mode: difference;
 	padding: 0em .05em 0em .05em;
+/*	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
 }
 
 .overview {
 	text-decoration: none;
-	color: gray;
+	color: white;
 	font-family: Arial;
 	font-size: 70px;
 	font-weight: bold;
@@ -220,11 +222,12 @@ h1 {
 	z-index: 3 !important; 
 	mix-blend-mode: difference;
 	padding: 0em .05em 0em .05em;
+/*	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
 }
 
 .statement {
 	text-decoration: none;
-	color: gray;
+	color: white;
 	font-family: Arial;
 	font-size: 70px;
 	font-weight: bold;
@@ -234,11 +237,12 @@ h1 {
 	z-index: 3 !important; 
 	mix-blend-mode: difference;
 	padding: 0em .05em 0em .05em;
+/*	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
 }
 
 .research {
 	text-decoration: none;
-	color: gray;
+	color: white;
 	font-family: Arial;
 	font-size: 70px;
 	font-weight: bold;
@@ -248,6 +252,7 @@ h1 {
 	z-index: 3 !important; 
 	mix-blend-mode: difference;
 	padding: 0em .05em 0em .05em;
+/*	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
 }
 
 #quote1 {

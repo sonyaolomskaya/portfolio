@@ -39,6 +39,66 @@ a:hover {
 
 }
 
+#videoone {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videotwo {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videothree {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videofour {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videofive {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videosix {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videoseven {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videoeight {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videonine {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videoten {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videoeleven {
+	display: inline-grid;
+	height: 100%;
+}
+
+#videotwelve {
+	display: inline-grid;
+	height: 100%;
+}
+
 .grid-container {
 	margin-left: 30%;
 	margin-top: 3%;
