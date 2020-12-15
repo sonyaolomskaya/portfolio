@@ -16,7 +16,7 @@ video::-webkit-media-controls-enclosure {
 }
 
 .container {
-margin-top: 3%;
+margin-top: 2%;
 margin-left: 50px;
 display: flex;
 flex-direction: row;
@@ -144,6 +144,137 @@ padding: 0em .1em 0em .1em;
 	margin-left: 10px;	
 }
 
+#quote1 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 5%;
+	top: 90%;
+	width: 40%;
+}
 
+#quote2 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 52%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote3 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 102%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote4 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 152%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote5 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 202%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote6 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 252%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote7 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 302%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote8 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 352%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote9 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 402%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote10 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 452%;
+	top: 90%;
+	width: 40%;
+}
+
+#quote11 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 502%;
+	top: 90%;
+	width: 40%;
+}
+
+
+#quote12 {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	left: 552%;
+	top: 90%;
+	width: 40%;
+}
 
 

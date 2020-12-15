@@ -175,7 +175,7 @@ h4 {
 .title {
 	position: absolute;
 	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 250px;
+	font-size: 200px;
 	transition: rotate(0deg);
 	font-weight: 500;
 	mix-blend-mode: difference;
