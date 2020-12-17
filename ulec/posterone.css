@@ -12,6 +12,29 @@ html {
   height: 100%;
 }
 
+.back {
+	margin-top: 1%;
+	margin-left: 1%;
+	font-size: 20px;
+	font-family: Arial;
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	font-weight: bold;
+}
+
+.heading1 {
+	position: absolute;
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+	width: 30%;
+	margin-left: 3%;
+	margin-top: 45%;
+	line-height: 2;
+}
+
 .posterone {
 margin-left: 2%;
 margin-top: 7%;
@@ -21,8 +44,10 @@ position: relative;
 }
 
 .bg {
-	margin-top: 40%;
-	margin-left: 5%;
+	margin-top: 70%;
+	margin-left: 10%;
+	width: 20%;
+	height: 20%;
 }
 
 .videos {
