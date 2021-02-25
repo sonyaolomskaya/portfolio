@@ -1,3 +1,15 @@
+@keyframes para {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
+
+
 body {
   padding: 0;
   margin: 0;
@@ -6,55 +18,113 @@ body {
 
 }
 
+a:-webkit-any-link {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+
 html {
   width: 100%;
-  height: 100%;
+  height: 100%;  
+	background-color: hsla(200,40%,30%,.4);
+	background-image:		
+		url('sources/bg1.png'), 
+		url('sources/bg2.png'),
+		url('sources/bg4.png'),
+		url('sources/bg5.png'),
+		url('sources/bg3.png');
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		2500px,
+		1000px,
+		500px,
+		1000px,
+		1500px;
+	background-blend-mode: none;
+	animation: 50s para infinite linear;
+	}
 }
 
+/*.play {
+	font-size: 50px;
+	font-family: Futura, sans-serif;
+	text-align: center;
+	margin: 0;
+	text-decoration: none;
+	color: black;
+}*/
 
-#gate {
-  cursor: pointer;
-  margin-bottom: 100px;
-  width: 50%;
-  height: 50%;
+.play: hover {
+	color: white;
 }
 
-#ball {
-  cursor: pointer;
-  width: 70px;
-  height: 70px;
+.playbutton {
+	cursor: pointer;
+	font-size: 50px;
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	margin: 0;
+	margin-left: 60%;
+	margin-top: 8%;
+	width: 30%;
+	height: 9%;
+	position: fixed;
+	color: black;
+	background-color: white;
+	border-style: double;
+}
+
+.playbutton:hover {
+	filter: invert(100%);
 }
 
 .text {
 	position: fixed;
-	margin-left: 30%;
-	margin-top: 10%;
+	margin-left: 5%;
+	margin-top: -2%;
 }
 
 .title {
-	margin-top: 10%;
-	font-size: 50px;
-	font-family: Futura, sans-serif;
-	text-align: center;
+	background-color: white;
+	width: 70%;
+	font-size: 70px;
+	font-family: 'Abril Fatface', cursive;
 	margin-bottom: 0;
+	text-align: center;
+		border-style: double;
 }
 
 .title2 {
-	margin: 0;
-	font-size: 50px;
-	font-family: Futura, sans-serif;
+	background-color: white;
 	text-align: center;
+	width: 75%;
+	color: black;
+	margin-top: 2%;
+	font-size: 70px;
+	font-family: 'Abril Fatface', cursive;
 	animation-name: hide;
   	animation-duration: 5s;
   	animation-iteration-count: infinite;
   	animation-timing-function: ease-in-out;
+  		border-style: double;
 }
 
 .title3 {
-	font-size: 50px;
-	font-family: Futura, sans-serif;
+	background-color: white;
+	width: 102%;
 	text-align: center;
-	margin: 0;
+	font-size: 70px;
+	font-family: 'Abril Fatface', cursive;
+	margin-top: -7%;
+		border-style: double;
 }
 
 @keyframes hide {
@@ -63,30 +133,4 @@ html {
   100% {filter: opacity(0);}
 }
 
-.play {
-	font-size: 50px;
-	font-family: Futura, sans-serif;
-	text-align: center;
-	margin: 0;
-	text-decoration: none;
-	color: black;
-}
 
-.play:hover {
-	color: white;
-}
-
-.playbutton {
-	margin-left: 34%;
-	margin-top: 30%;
-	width: 28%;
-	height: 8%;
-	border-style: double;
-	position: fixed;
-	color: black;
-	background-color: white;
-}
-
-.playbutton:hover {
-	background-color: black;
-}

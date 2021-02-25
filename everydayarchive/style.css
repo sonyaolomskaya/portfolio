@@ -3,6 +3,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
+  background-color: white;
 
 }
 
@@ -11,4 +12,98 @@ html {
   height: 100%;
 }
 
+button {
+	border-style: none;
+	font-family: Courier New, sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+	width: 5%;
+	height: 5%;
+}
 
+.btn {
+	filter: invert(100%) brightness(120%);
+	color: white;
+	margin-top: 5%;
+	margin-left: 90%;
+	position: fixed;
+/*	border-color: white;*/
+}
+
+.btn1 {
+	filter: brightness(120%);
+	color: black;
+	margin-top: 1%;
+	margin-left: 90%;
+	position: fixed;
+/*	border-color: black;*/
+}
+
+.black {
+	width: 100%;
+	height: 100%;
+}
+
+.white {
+	width: 100%;
+	height: 100%;
+}
+
+.btn1:hover {
+	filter: blur(1px);
+}
+
+.btn:hover {
+	filter: blur(1px) invert(100%) brightness(120%);
+}
+
+.picture {
+	margin-left: 55%;
+	margin-top: 5%;
+	width: 30%;
+	height: 30%;
+	position: relative;
+}
+
+.picture1:hover {
+	filter: invert(100%) saturate(10%);
+}
+
+.picture:hover {
+	filter: invert(100%) saturate(10%);
+}
+
+.ang {
+	margin-top: 10%;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  position: fixed;
+  width: 25%;
+  height: 97%;
+  left: 15%;
+  top: 2%;
+}
+
+.picture1 {
+	width: 95%;
+	height: 95%;
+	margin: 0;
+}
+
+.text {
+position: fixed;
+width: 100%;
+left: -18%;
+top: 38%;
+}
+
+
+.textimg {
+	transform: rotate(-89deg);
+	width: 50%;
+	height: 50%;
+}

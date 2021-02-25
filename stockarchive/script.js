@@ -1,43 +1,26 @@
 $(document).ready(function(){
     
-    let currentDroppable = null;
+    // let currentDroppable = null;
+    document.getElementById("ball").style.position = "absolute";
+    document.getElementById("ball").style.left = "80px";
+    document.getElementById("ball").style.top = "1520px";
 
     ball.onmousedown = function(event) {
 
-      let shiftX = event.clientX - ball.getBoundingClientRect().left;
-      let shiftY = event.clientY - ball.getBoundingClientRect().top;
-
       ball.style.position = 'absolute';
       ball.style.zIndex = 1000;
-      document.body.append(ball);
 
-      moveAt(event.pageX, event.pageY);
+      // document.body.append(ball);
 
       function moveAt(pageX, pageY) {
-        ball.style.left = pageX - shiftX + 'px';
-        ball.style.top = pageY - shiftY + 'px';
+        ball.style.left = pageX - ball.offsetWidth / 2 + 'px';
+        ball.style.top = pageY - ball.offsetHeight / 2 + 'px';
       }
+    
+      moveAt(event.pageX, event.pageY);
 
       function onMouseMove(event) {
         moveAt(event.pageX, event.pageY);
-
-        ball.hidden = true;
-        let elemBelow = document.elementFromPoint(event.clientX, event.clientY);
-        ball.hidden = false;
-
-        if (!elemBelow) return;
-
-        let droppableBelow = elemBelow.closest('.droppable');
-        if (currentDroppable != droppableBelow) {
-          if (currentDroppable) { // null when we were not over a droppable before this event
-            leaveDroppable(currentDroppable);
-          }
-          currentDroppable = droppableBelow;
-          if (currentDroppable) { // null if we're not coming over a droppable now
-            // (maybe just left the droppable)
-            enterDroppable(currentDroppable);
-          }
-        }
       }
 
       document.addEventListener('mousemove', onMouseMove);
@@ -46,20 +29,11 @@ $(document).ready(function(){
         document.removeEventListener('mousemove', onMouseMove);
         ball.onmouseup = null;
       };
+      
+      ball.ondragstart = function() {
+        return false;
+      };
 
     };
 
-
-    function enterDroppable(elem) {
-      elem.style.background = 'black';
-    }
-
-    function leaveDroppable(elem) {
-      elem.style.background = '';
-    }
-
-    ball.ondragstart = function() {
-      return false;
-    };
-
-    });
+  });
