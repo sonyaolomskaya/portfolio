@@ -40,13 +40,12 @@ html {
 }
 
 .object {
-  margin-top: 10%;
-  margin-left: 7%;
-  font-size: 180px;
+  margin-top: -7%;
+  margin-left: -1%;
+  font-size: 600px;
   position: absolute;
   color: white;
 }
-
 .playbutton {
   font-size: 15px;
   font-family: 'Abril Fatface', cursive;

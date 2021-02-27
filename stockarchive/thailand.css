@@ -20,8 +20,8 @@ html {
 
 .ball {
   cursor: pointer;
-  width: 12%;
-  height: 15%;
+  width: 10%;
+  height: 12%;
   position: absolute;
 }
 
@@ -41,8 +41,9 @@ html {
 }
 
 .object {
-  margin-left: 5%;
-  font-size: 200px;
+  margin-top: -7%;
+  margin-left: -1%;
+  font-size: 600px;
   position: absolute;
   color: white;
 }

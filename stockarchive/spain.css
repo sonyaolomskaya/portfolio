@@ -1,7 +1,7 @@
 body {
   width: 100%;
   height: 100%;
-background: radial-gradient(circle, rgba(117,64,87,1) 0%, rgba(255,72,0,1) 100%);
+background: radial-gradient(circle, rgba(255,255,255,1) 18%, rgba(101,81,81,1) 100%);
 }
 
 
@@ -19,8 +19,8 @@ html {
 
 .ball {
   cursor: pointer;
-  width: 9%;
-  height: 10%;
+  width: 10%;
+  height: 12%;
   position: absolute;
 }
 
@@ -40,13 +40,12 @@ html {
 }
 
 .object {
-  margin-top: 9%;
-  margin-left: 5%;
-  font-size: 150px;
+  margin-top: -7%;
+  margin-left: -1%;
+  font-size: 600px;
   position: absolute;
   color: white;
 }
-
 .playbutton {
   font-size: 15px;
   font-family: 'Abril Fatface', cursive;

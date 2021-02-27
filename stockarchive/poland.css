@@ -1,7 +1,7 @@
 body {
   width: 100%;
   height: 100%;
-background: radial-gradient(circle, rgba(255,213,233,1) 0%, rgba(159,111,230,1) 100%);
+background: radial-gradient(circle, rgba(110,149,150,1) 48%, rgba(207,121,0,1) 100%);
 }
 
 
@@ -19,8 +19,8 @@ html {
 
 .ball {
   cursor: pointer;
-  width: 5%;
-  height: 7%;
+  width: 10%;
+  height: 12%;
   position: absolute;
 }
 
@@ -40,9 +40,9 @@ html {
 }
 
 .object {
-  margin-top: 9%;
-  margin-left: 5%;
-  font-size: 150px;
+  margin-top: -7%;
+  margin-left: -1%;
+  font-size: 600px;
   position: absolute;
   color: white;
 }

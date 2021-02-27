@@ -2,8 +2,8 @@ $(document).ready(function(){
     
     // let currentDroppable = null;
     document.getElementById("ball").style.position = "absolute";
-    document.getElementById("ball").style.left = "50px";
-    document.getElementById("ball").style.top = "370px";
+    document.getElementById("ball").style.left = "80px";
+    document.getElementById("ball").style.top = "400px";
 
     ball.onmousedown = function(event) {
 

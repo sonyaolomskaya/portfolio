@@ -1,7 +1,7 @@
 body {
   width: 100%;
   height: 100%;
-background: radial-gradient(circle, rgba(255,252,0,1) 23%, rgba(0,104,255,1) 100%);
+background: radial-gradient(circle, rgba(171,115,167,1) 18%, rgba(0,185,255,1) 100%);
 }
 
 
@@ -40,9 +40,9 @@ html {
 }
 
 .object {
-  margin-top: 7%;
-  margin-left: 4%;
-  font-size: 200px;
+  margin-top: -7%;
+  margin-left: -1%;
+  font-size: 600px;
   position: absolute;
   color: white;
 }
