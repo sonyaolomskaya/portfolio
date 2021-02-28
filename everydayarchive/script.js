@@ -2,12 +2,12 @@ $(document).ready(function(){
 
 $('.btn').on('click', function(){
     $('body').css('background-color', 'black')
-    $('.textimg').css('filter', 'invert(100%) brightness(90%)')
+    $('.textimg').css('filter', 'invert(100%) brightness(120%)')
 })
 
 $('.btn1').on('click', function(){
     $('body').css('background-color', 'white')
-    $('.textimg').css('filter', 'invert(0%) brightness(100%)')
+    $('.textimg').css('filter', 'invert(0%) brightness(110%)')
 })
 
 });

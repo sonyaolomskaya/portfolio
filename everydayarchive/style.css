@@ -13,25 +13,26 @@ html {
 }
 
 button {
+	background-color: Transparent;
 	border-style: none;
 	font-family: Courier New, sans-serif;
 	font-size: 20px;
 	cursor: pointer;
-	width: 5%;
-	height: 5%;
+	width: 8%;
+	height: 10%;
 }
 
 .btn {
-	filter: invert(100%) brightness(120%);
-	color: white;
-	margin-top: 5%;
+	filter: brightness(110%);
+	margin-top: 7%;
 	margin-left: 90%;
 	position: fixed;
 /*	border-color: white;*/
+	filter: invert(100%);
 }
 
 .btn1 {
-	filter: brightness(120%);
+	filter: brightness(110%);
 	color: black;
 	margin-top: 1%;
 	margin-left: 90%;
@@ -47,14 +48,6 @@ button {
 .white {
 	width: 100%;
 	height: 100%;
-}
-
-.btn1:hover {
-	filter: blur(1px);
-}
-
-.btn:hover {
-	filter: blur(1px) invert(100%) brightness(120%);
 }
 
 .picture {
@@ -79,13 +72,13 @@ button {
 
 .gridcontainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   position: fixed;
-  width: 25%;
-  height: 97%;
-  left: 15%;
-  top: 2%;
+  width: 40%;
+  height: 75%;
+  left: 6%;
+  top: 23%;
 }
 
 .picture1 {
@@ -94,16 +87,11 @@ button {
 	margin: 0;
 }
 
-.text {
-position: fixed;
-width: 100%;
-left: -18%;
-top: 38%;
-}
-
-
 .textimg {
-	transform: rotate(-89deg);
-	width: 50%;
-	height: 50%;
+	margin-left: 4%;
+	filter: invert(0%) brightness(100%);
+	width: 40%;
+	height: 20%;
+	position: fixed;
+	left: 2%;
 }
