@@ -3,6 +3,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
+  cursor: auto;
 }
 
 /*@keyframes scrollone {
@@ -16,13 +17,25 @@ html {
   height: 100%;
 }
 
-
-.text {
+/*.text1 {
   font-size: 25px;
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
-  margin-left: 1000px;
+  margin-left: 10px;
+    margin-left: 105%;
+  width: 30%;
+  position: absolute;
 /*  animation: scrollone 15s linear infinite;*/
+
+
+.button {
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  margin-left: 105%;
+  width: 40%;
+  position: absolute;
+  cursor: pointer;
 }
 
 img {
@@ -30,12 +43,33 @@ img {
   width: 100%;
 }
 
-.gridcontainer {
+.period {
+  height: 100%;
+  width: 100%;
+}
+
+.image-container {
   margin-top: 0%;
+  margin-left: 0%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
+}
+
+.overlay-container {
+  margin-top: 0%;
+  margin-left: 0%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  opacity: 0;
 }
