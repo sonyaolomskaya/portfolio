@@ -39,6 +39,29 @@ $(".text1").mouseleave(function(){
     $(".textone").css("opacity", 0);
 })
 
+$(".text2").mouseover(function(){
+    $(".texttwo").css("opacity", 1);
+})
+
+$(".text2").mouseleave(function(){
+    $(".texttwo").css("opacity", 0);
+})
+
+$(".text3").mouseover(function(){
+    $(".textthree").css("opacity", 1);
+})
+
+$(".text3").mouseleave(function(){
+    $(".textthree").css("opacity", 0);
+})
+
+$(".text4").mouseover(function(){
+    $(".textfour").css("opacity", 1);
+})
+
+$(".text4").mouseleave(function(){
+    $(".textfour").css("opacity", 0);
+})
 // for (const image in images) {
 //       $('.image-container').append(`<div class="image"><img src="${images[image]}"></div>`);
 //       console.log('image')

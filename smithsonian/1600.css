@@ -6,31 +6,15 @@ body {
   cursor: auto;
 }
 
-/*@keyframes scrollone {
- 0%   { transform: translateX(100%); }
- 100% { transform: translateX(-100%); }
-}
-*/
 
 html {
   width: 100%;
   height: 100%;
 }
 
-/*.text1 {
-  font-size: 25px;
-  font-family: 'Work Sans', sans-serif;
-  text-transform: uppercase;
-  margin-left: 10px;
-    margin-left: 105%;
-  width: 30%;
-  position: absolute;
-/*  animation: scrollone 15s linear infinite;*/
-
-
 .button {
   font-size: 20px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
   margin-left: 1%;
   font-weight: 200;
@@ -39,14 +23,14 @@ html {
   cursor: pointer;
   background-color: black;
   color: white;
-    width: 7%;
+  width: 7%;
   letter-spacing: 2px;
   z-index: 1;
 }
 
 .back {
   font-size: 20px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
   margin-left: 1%;
   margin-top: 49%;
@@ -79,50 +63,49 @@ img {
   margin-top: 1%;
   margin-left: 10%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   position: absolute;
   width: 85%;
   height: 85%;
 }
 
-.image-containertwo {
+.background {
   margin-top: 0%;
   margin-left: 0%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   position: fixed;
   width: 100%;
   height: 100%;
   filter: grayscale(100);
-  opacity: .5;
+  opacity: 0.5;
 }
-
 
 .overlay-container {
   margin-top: 1%;
   margin-left: 10%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   position: absolute;
   width: 85%;
   height: 85%;
 }
 
-.gridcontainer {
+.links-container {
   margin-top: 60%;
-  margin-left: 10%;
+  margin-left: 20%;
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   position: absolute;
   width: 60%;
   height: 60%;
 }
 
-.period {
+.link {
   margin-left: 35%;
 }
 
@@ -130,7 +113,7 @@ img {
   margin-top: 65%;
   margin-left: 10%;
   position: absolute;
-   font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   width: 20%;

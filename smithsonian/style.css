@@ -18,10 +18,11 @@ html {
   text-transform: uppercase;
   font-weight: 500;
   margin-left: 20%;
-  margin-top: 20%;
-  line-height: 80px;
+  margin-top: 18%;
+  line-height: 90px;
   position: absolute;
   color: black;
+  text-align: center;
 }
 
 
@@ -30,9 +31,9 @@ html {
   font-family: Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  margin-left: 40%;
-  margin-top: 30%;
-  line-height: 80px;
+  margin-left: 35%;
+  margin-top: 32%;
+  line-height: 30px;
   position: absolute;
   color: black;
 }
@@ -131,6 +132,20 @@ img {
   color: black;
 }
 
+.texttwo {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 180%;
+  margin-top: 10%;
+  line-height: 35px;
+  position: absolute;
+  width: 40%;
+  color: black;
+  opacity: 0;
+}
+
 .text3 {
   font-size: 40px;
   font-family: Arial, sans-serif;
@@ -144,6 +159,20 @@ img {
   color: black;
 }
 
+.textthree {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 260%;
+  margin-top: 10%;
+  line-height: 35px;
+  position: absolute;
+  width: 40%;
+  color: black;
+  opacity: 0;
+}
+
 .text4 {
   font-size: 40px;
   font-family: Arial, sans-serif;
@@ -155,6 +184,20 @@ img {
   position: absolute;
   width: 60%;
   color: black;
+}
+
+.textfour {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 330%;
+  margin-top: 10%;
+  line-height: 35px;
+  position: absolute;
+  width: 40%;
+  color: black;
+  opacity: 0;
 }
 
 .overlay {

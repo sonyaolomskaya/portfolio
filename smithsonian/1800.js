@@ -1,122 +1,112 @@
 
-// $(document).ready(function(){
-
-// // $(".one").mouseover(function(){
-// //     $(".two").css("opacity", 1);
-// //     $(".one").css("opacity", 0);
-// // })
-
-// // $(".three").mouseover(function(){
-// //     $(".four").css("opacity", 1);
-// //     $(".three").css("opacity", 0);
-// // })
-
-// // $(".five").mouseover(function(){
-// //     $(".six").css("opacity", 1);
-// //     $(".five").css("opacity", 0);
-// // })
-
-// });
-
-
 var images = {
-	1: 'assets/1800_1.gif',
-	2: 'assets/1800_2.gif',
-	3: 'assets/1800_3.gif',
-	4: 'assets/1800_4.gif',
-	5: 'assets/1800_5.gif',
-	6: 'assets/1800_6.gif',
-	7: 'assets/1800_7.gif',
-	8: 'assets/1800_8.gif',
-	9: 'assets/1800_9.gif',
-	10: 'assets/1800_10.gif',
-	11: 'assets/1800_11.gif',
-	12: 'assets/1800_12.gif',
-	13: 'assets/1800_13.gif',
-	14: 'assets/1800_14.gif',
-	15: 'assets/1800_15.gif',
-	16: 'assets/1800_16.gif',
-	17: 'assets/1800_17.gif',
-	18: 'assets/1800_18.gif',
-	19: 'assets/1800_19.gif',
-	20: 'assets/1800_20.gif',
-	21: 'assets/1800_21.gif',
-	22: 'assets/1800_22.gif',
-	23: 'assets/1800_23.gif',
-	24: 'assets/1800_24.gif',
-	25: 'assets/1800_25.gif',
-	26: 'assets/1800_26.gif',
-	27: 'assets/1800_27.gif',
-	28: 'assets/1800_28.gif',
+  1: "assets/1800_1",
+  2: "assets/1800_2",
+  3: "assets/1800_3",
+  4: "assets/1800_4",
+  5: "assets/1800_5",
+  6: "assets/1800_6",
+  7: "assets/1800_7",
+  8: "assets/1800_8",
+  9: "assets/1800_9",
+  10: "assets/1800_10",
+  11: "assets/1800_11",
+  12: "assets/1800_12",
+  13: "assets/1800_13",
+  14: "assets/1800_14",
+  15: "assets/1800_15",
+  16: "assets/1800_16",
+  17: "assets/1800_17",
+  18: "assets/1800_18",
+  19: "assets/1800_19",
+  20: "assets/1800_29",
+  21: "assets/1800_21",
+  22: "assets/1800_22",
+  23: "assets/1800_23",
+  24: "assets/1800_24",
+  25: "assets/1800_25",
+  26: "assets/1800_26",
+  27: "assets/1800_27",
+  28: "assets/1800_28",
+};
+
+var links = {
+	1: 'https://www.si.edu/object/carpet-fragment%3Achndm_1967-5-1-a',
+	2: 'https://www.si.edu/object/carpet-fragment%3Achndm_1958-53-1',
+	3: 'https://www.si.edu/object/design-rug-or-tapestry%3Achndm_1954-7-47',
+	4: 'https://www.si.edu/object/carpet-fragment%3Achndm_1968-135-149-b',
+	5: 'https://www.si.edu/object/shawl-fragment%3Achndm_1953-90-1',
+	6: 'https://www.si.edu/object/carpet-fragment%3Achndm_1966-39-1',
+	7: 'https://www.si.edu/object/carpet%3Achndm_1977-82-2',
+	8: 'https://www.si.edu/object/carpet-fragment%3Achndm_1967-20-25',
+	9: 'https://www.si.edu/object/carpet-fragment%3Achndm_1970-23-1',
+	10: 'https://www.si.edu/object/carpet-fragment%3Achndm_1958-53-2-a',
+	11: 'https://www.si.edu/object/carpet-fragment%3Achndm_1956-42-74',
+	12: 'https://www.si.edu/object/carpet%3Achndm_1968-135-86',
+	13: 'https://www.si.edu/object/carpet-fragment%3Achndm_1975-13-1',
+	14: 'https://www.si.edu/object/carpet%3Achndm_1957-132-1-a',
+	15: 'https://www.si.edu/object/floor-cloth-fragment%3Achndm_1959-139-1',
+	16: 'https://www.si.edu/object/carpet-fragment%3Achndm_1956-42-72-a',
+	17: 'https://www.si.edu/object/shawl-fragment%3Achndm_1941-80-4',
+	18: 'https://www.si.edu/object/carpet-fragment%3Achndm_1958-53-3',
+	19: 'https://www.si.edu/object/panel%3Achndm_1903-9-18',
+	20: 'https://www.si.edu/object/panel-five-dragons-flaming-pearls-clouds-and-floral-patterns%3Afsg_F1909.396',
+	21: 'https://www.si.edu/object/carpet-fragment%3Achndm_1968-135-87-a',
+	22: 'https://www.si.edu/object/shawl%3Achndm_1980-38-3',
+	23: 'https://www.si.edu/object/kelim-tapestry-poncho-fringe%3Anmnhanthropology_8013093',
+	24: '',
+	25: 'https://www.si.edu/object/carpet-fragment%3Achndm_1950-48-1',
+	26: '',
+	27: 'https://www.si.edu/object/carpet%3Achndm_1951-15-1',
+	28: '',
 }
 
-var overlayImages = {
-	1: 'assets/1800_1.png',
-	2: 'assets/1800_2.png',
-	3: 'assets/1800_3.png',
-	4: 'assets/1800_4.png',
-	5: 'assets/1800_5.png',
-	6: 'assets/1800_6.png',
-	7: 'assets/1800_7.png',
-	8: 'assets/1800_8.png',
-	9: 'assets/1800_9.png',
-	10: 'assets/1800_10.png',
-	11: 'assets/1800_11.png',
-	12: 'assets/1800_12.png',
-	13: 'assets/1800_13.png',
-	14: 'assets/1800_14.png',
-	15: 'assets/1800_15.png',
-	16: 'assets/1800_16.png',
-	17: 'assets/1800_17.png',
-	18: 'assets/1800_18.png',
-	19: 'assets/1800_19.png',
-	20: 'assets/1800_20.png',
-	21: 'assets/1800_21.png',
-	22: 'assets/1800_22.png',
-	23: 'assets/1800_23.png',
-	24: 'assets/1800_24.png',
-	25: 'assets/1800_25.png',
-	26: 'assets/1800_26.png',
-	27: 'assets/1800_27.png',
-	28: 'assets/1800_28.png',
-}
 
-$(document).ready(function() {
+$(document).ready(function () {
+  for (const image in images) {
+    $(".background").append(
+      `<div class="image"><img src="${images[image]}.png"></div>`
+    );
+    $(".image-container").append(
+      `<div class="image"><img src="${images[image]}.gif"></div>`
+    );
+    $(".overlay-container").append(
+      `<div class="overlay" id="${image}"><img src="${images[image]}.png"></div>`
+    );
+    $(`#${image}`).mouseover(function () {
+      $(`#${image}`).css("opacity", 1);
+    });
+    $(".links-container").append(
+      `<a class="period" href="${links[image]}" target="_blank"><img src="${images[image]}.png"> </a>`
+    );
+  }
 
-	for (const image in images) {
-      $('.image-container').append(`<div class="image"><img src="${images[image]}"></div>`);
+  $(".button").click(function () {
+    $(".image-container").empty();
+    $(".overlay-container").empty();
+
+    var randomNumbers = [];
+    for (var i = 1; i <= 28; i++) {
+      randomNumbers.push(i);
     }
+    randomNumbers.sort(() => 0.5 - Math.random());
 
-	// for (const image in overlayImages) {
- //      $('.image-containertwo').append(`<div class="image"><img src="${overlayImages[image]}"></div>`);
- //      console.log('image')
- //    }
+    console.log("checkgin randomNumbers", randomNumbers);
 
-    for (const image in overlayImages) {
-    	$('.overlay-container').append(`<div class="overlay" id="${image}"><img src="${overlayImages[image]}"></div>`);
-  	 	$(`#${image}`).mouseover(function(){
-   			$(`#${image}`).css("opacity", 1); 
-   		})
-	}
-
-	$( ".button" ).click(function() {
-  		$( ".image-container" ).empty()
-  		$( ".overlay-container" ).empty()
-  	
-  		var random = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28].sort( () => .5 - Math.random() )
-
-  		for (i = 0; i < random.length; i++) {
-  			$('.image-container').append(`<div class="image"><img src="${images[random[i]]}"></div>`);
-  			$('.overlay-container').append(`<div class="overlay" id="${random[i]}"><img src="${overlayImages[random[i]]}"></div>`);
-  			$(`#${random[i]}`).mouseover(function(){
-   				$(`#${random[i]}`).css("opacity", 1); 
-   			})
-
-   			
-		}
-
-	});
-
+    for (i = 0; i < randomNumbers.length; i++) {
+      $(".image-container").append(
+        `<div class="image"><img src="${images[randomNumbers[i]]}.gif"></div>`
+      );
+      $(".overlay-container").append(
+        `<div class="overlay" id="${randomNumbers[i]}"><img src="${
+          images[randomNumbers[i]]
+        }.png"></div>`
+      );
+      $(`#${randomNumbers[i]}`).mouseover(function () {
+        $(`#${this.id}`).css("opacity", 1);
+      });
+    }
+  });
 });
 
 
